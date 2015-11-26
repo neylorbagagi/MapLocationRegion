@@ -15,6 +15,7 @@
 		F05FD1AC1C078C81004C8CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05FD1AA1C078C81004C8CD3 /* LaunchScreen.storyboard */; };
 		F05FD1B71C078C81004C8CD3 /* MapLocationRegionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F05FD1B61C078C81004C8CD3 /* MapLocationRegionTests.m */; };
 		F05FD1C21C078C81004C8CD3 /* MapLocationRegionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F05FD1C11C078C81004C8CD3 /* MapLocationRegionUITests.m */; };
+		F05FD1D01C07918D004C8CD3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05FD1CF1C07918D004C8CD3 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F05FD1BD1C078C81004C8CD3 /* MapLocationRegionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapLocationRegionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05FD1C11C078C81004C8CD3 /* MapLocationRegionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapLocationRegionUITests.m; sourceTree = "<group>"; };
 		F05FD1C31C078C81004C8CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05FD1CF1C07918D004C8CD3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05FD1D01C07918D004C8CD3 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		F05FD1901C078C81004C8CD3 = {
 			isa = PBXGroup;
 			children = (
+				F05FD1CF1C07918D004C8CD3 /* CoreLocation.framework */,
 				F05FD19B1C078C81004C8CD3 /* MapLocationRegion */,
 				F05FD1B51C078C81004C8CD3 /* MapLocationRegionTests */,
 				F05FD1C01C078C81004C8CD3 /* MapLocationRegionUITests */,
